@@ -1,0 +1,20 @@
+{
+  "name": "meu-primeiro-programa",
+  "version": "1.0.0",
+  "description": "Uma ferramenta bem legal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvcds/meu-primeiro-programa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mvcds/meu-primeiro-programa/issues"
+  },
+  "homepage": "https://github.com/mvcds/meu-primeiro-programa#readme"
+}

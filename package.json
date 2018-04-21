@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mvcds/meu-primeiro-programa/issues"
   },
-  "homepage": "https://github.com/mvcds/meu-primeiro-programa#readme"
+  "homepage": "https://github.com/mvcds/meu-primeiro-programa#readme",
+  "dependencies": {
+    "commander": "^2.15.1"
+  }
 }

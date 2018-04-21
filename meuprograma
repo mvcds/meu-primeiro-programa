@@ -6,5 +6,8 @@ const program = require('commander')
 
 //  usando sempre a versão do manifesto como versão do programa
 program.version(version, '-v, --version')
+  //  cada comando precisa ser declarado
+  //  <name> é opcional
+  .command('dizer-ola <nome>', 'diz olá')
   //  aqui o commander interpreta os arqumentos pra gente
   .parse(process.argv)

@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+//  a linha acima permite usar nosso programa como uma CLI
+
+const program = require('commander')
+
+program
+  //dizer-ola formata o nome usando um case
+  .option('-c, --case [case]', 'aplica algum case ao nome passado')
+  //dizer-ola joga o nome pra caixa
+  .option('-u, --upper', 'força caixa alta')
+  .parse(process.argv)

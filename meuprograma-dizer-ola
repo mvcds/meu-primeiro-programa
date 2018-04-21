@@ -2,6 +2,7 @@
 //  a linha acima permite usar nosso programa como uma CLI
 
 const program = require('commander')
+const { dizerOla } = require('./')
 
 program
   //dizer-ola formata o nome usando um case
@@ -9,3 +10,8 @@ program
   //dizer-ola joga o nome pra caixa
   .option('-u, --upper', 'força caixa alta')
   .parse(process.argv)
+
+const [ nome ] = program.args
+const { case: caze, upper } = program
+
+dizerOla({ nome, caze, upper })
